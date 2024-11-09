@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fore Coffee - Coffee Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-gray-900 text-white p-5">
+        <nav class="flex justify-between items-center">
+            <img src="logo.png" alt="Fore Coffee" class="w-32">
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+                <li><a href="#products" class="hover:text-yellow-400">Products</a></li>
+                <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+                <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="bg-cover bg-center h-96" style="background-image: url('banner-image.jpg');">
+        <div class="flex justify-center items-center h-full bg-black bg-opacity-50 text-white text-4xl font-semibold">
+            <p>Discover the Best Coffee Experience</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-10 bg-gray-50">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-900 mb-8">Our Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="product1.jpg" alt="Product 1" class="w-full h-40 object-cover mb-4 rounded-lg">
+                    <h3 class="text-xl font-semibold">Premium Coffee</h3>
+                    <p class="text-gray-600 mb-4">A premium blend of the best coffee beans.</p>
+                    <button class="bg-yellow-500 text-white py-2 px-6 rounded-lg hover:bg-yellow-600">Order Now</button>
+                </div>
+                <!-- Repeat similar blocks for other products -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white p-6 text-center">
+        <p>&copy; 2024 Fore Coffee. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
